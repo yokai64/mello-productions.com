@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../font/roboto.ttf");
+}
+
+@font-face {
+  font-family: uni;
+  src: url("../font/uni.otf");
+}
+
+body {
+  font-family: Roboto;
+  background-image: url("../img/scrumpled.jpeg");
+  background-size: cover;
+}
+
+.connection {
+  max-height: 5em;
+  margin: 0.5em;
+}
+
+.inbutton {
+  width: 6em;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #5865f2 !important;
+}
+
+hr {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.shhh {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.shhh,
+.shhh:active,
+.shhh:visited {
+  color: #302837 !important;
+  text-decoration: none;
+}
+
+.shhh:hover {
+  color: #ff8023;
+}
+
+.hero {
+  max-height: 12em;
+  margin: 0.5em;
+}
+
+.discord {
+  font-family: uni;
+}
